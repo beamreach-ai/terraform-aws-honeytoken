@@ -13,6 +13,11 @@ by step in the guide
 [AWS canary credentials: how to set up an IAM honeytoken](https://beamreach.ai/docs/aws-canary-credentials.html).
 This module packages that guide's Terraform.
 
+> **Status: 0.1, not yet applied to a real AWS account.** The tests run
+> against a mocked provider, and AWS provider 6.72 validates the
+> configuration. Run the [test](#test-it) after you apply it, and please
+> open an issue with what you find.
+
 ## What it creates
 
 - **The decoy:** an IAM user with no console password, no tags and an
